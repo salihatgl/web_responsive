@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menu ul{
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    border-bottom: 3px solid rgb(4, 4, 100);
+    vertical-align: middle;
+
+}
+  
+.menu ul li{
+
+    float: right;
+    padding-left: 16px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 3vh;
+    padding: 16px  20px 16px  16px;
+    display: block;
+    color: black;
+}
+.menu .logo{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 5%;
+}
+header img{
+    width: 100%;
+    height: auto;
+    
+
+}
+.menu ul li a:hover{
+    background-color:rgba(11, 11, 83 ,0.7);
+   
+}
+@media (max-width: 800px)  {
+  
+    .menu ul li a{
+        text-decoration: none;
+        font-size: 2vh;
+        padding: auto;
+        display: block;
+        color: black;
+    }
+    .menu ul li{
+
+        float: right;
+        padding-left: auto;
+    }
+    
+        
+    
+
+}
+
+    
+
+    
